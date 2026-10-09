@@ -1,0 +1,35 @@
+{
+  "datasets": [
+    {
+      "id": "cgwb-tn-gw-2026",
+      "name": "Central Ground Water Board (CGWB) & WRIS Tamil Nadu Telemetry Network",
+      "provider": "Ministry of Jal Shakti, Government of India / National Water Informatics Centre",
+      "coverage": "Tamil Nadu, India (Coimbatore, Namakkal, Salem, Madurai, Tiruppur, Erode, Karur, Thoothukudi)",
+      "frequency": "Daily & Sub-daily DWLR (Digital Water Level Recorder) Telemetry",
+      "parameters": [
+        "Depth to Water Level (m bgl)",
+        "Water Table Elevation (m amsl)",
+        "Sensor Temperature (°C)",
+        "Battery Voltage (V)",
+        "Telemetry Signal (dBm)"
+      ],
+      "version": "v2026.04-preliminary",
+      "qualityProtocol": "ISO 14001 / CGWB Observation Guidelines"
+    },
+    {
+      "id": "imd-rainfall-tn-2026",
+      "name": "India Meteorological Department (IMD) High-Resolution Gridded Daily Rainfall",
+      "provider": "India Meteorological Department (IMD), Pune / National Climate Centre",
+      "coverage": "0.25° x 0.25° Spatial Grid covering Tamil Nadu River Basins",
+      "frequency": "Daily accumulated precipitation (mm)",
+      "parameters": [
+        "Precipitation (mm)",
+        "Cumulative 14-day rainfall (mm)",
+        "Seasonal Departure from Normal (%)"
+      ],
+      "version": "IMD-0.25-Grid-v4"
+    }
+  ],
+  "pipelineVersion": "3.1.0-research",
+  "disclaimer": "Prototype research platform for algorithmic evaluation. Telemetry assimilated under simulated research protocol; not certified for statutory water rights administration."
+}

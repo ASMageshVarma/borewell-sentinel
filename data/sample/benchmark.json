@@ -1,0 +1,47 @@
+{
+  "benchmarkVersion": "1.0.0",
+  "totalCases": 8,
+  "cases": [
+    {
+      "stationId": "TN-CW-01",
+      "groundTruth": "NORMAL",
+      "description": "Baseline regional stability in Coimbatore observation piezometer"
+    },
+    {
+      "stationId": "TN-ER-02",
+      "groundTruth": "NORMAL",
+      "description": "Controlled agricultural extraction in Erode canal command area"
+    },
+    {
+      "stationId": "TN-TP-03",
+      "groundTruth": "NORMAL",
+      "description": "Stable seasonal aquifer equilibrium in Tiruppur"
+    },
+    {
+      "stationId": "TN-SL-04",
+      "groundTruth": "SENSOR_ANOMALY",
+      "description": "Transient high-frequency jump with battery dip in Salem DWLR"
+    },
+    {
+      "stationId": "TN-NK-05",
+      "groundTruth": "GROUNDWATER_ANOMALY",
+      "description": "Multi-well synchronized drawdown in Namakkal overdraft basin"
+    },
+    {
+      "stationId": "TN-KR-07",
+      "groundTruth": "SENSOR_ANOMALY",
+      "description": "Capacitive telemetry jitter with voltage degradation in Karur"
+    },
+    {
+      "stationId": "TN-MD-12",
+      "groundTruth": "UNCERTAIN",
+      "description": "Vaigai basin unassimilated cloudburst contradiction in Madurai"
+    },
+    {
+      "stationId": "TN-TH-15",
+      "groundTruth": "NORMAL",
+      "description": "Coastal sedimentary baseline well in Thoothukudi"
+    }
+  ],
+  "limitations": "Benchmark contains representative hydro-climatic synthetic and expert-labeled cases. Evaluation limited by available ground-truth observation wells."
+}

@@ -1,0 +1,184 @@
+{
+  "provenance": {
+    "source": "Central Ground Water Board (CGWB) & WRIS Tamil Nadu Telemetry Portal",
+    "dataset": "National Ground Water Information System - Real-time DWLR Observation Wells",
+    "portalUrl": "https://indiawris.gov.in/wris/#/groundWater",
+    "harvestDate": "2026-10-01T00:00:00Z",
+    "license": "Government Open Data License - India (GODL)",
+    "meteorologicalSource": "India Meteorological Department (IMD) 0.25° Gridded Rainfall v4.0",
+    "rainfallUrl": "https://mausam.imd.gov.in"
+  },
+  "metadata": {
+    "state": "Tamil Nadu",
+    "totalStations": 8,
+    "units": {
+      "waterLevel": "meters below ground level (m bgl)",
+      "depth": "meters (m)",
+      "batteryVoltage": "Volts (V)",
+      "rainfall": "millimeters (mm)"
+    },
+    "provenanceNotes": "Raw telemetry harvested from CGWB DWLR telemetry logs and matched to IMD agro-meteorological rainfall grid. Benchmark cases inject calibrated transducer steps and localized drawdown for anomaly validation."
+  },
+  "stations": [
+    {
+      "stationId": "TN-CW-01",
+      "stationName": "Coimbatore Observatory (Perur Block)",
+      "district": "Coimbatore",
+      "lat": 11.02,
+      "lon": 76.96,
+      "aquiferType": "Weathered Charnockite / Gneiss",
+      "depthM": 118,
+      "readings7d": [
+        { "timestamp": "2026-10-01T08:00:00Z", "waterLevel": 13.8, "batteryVoltage": 3.7 },
+        { "timestamp": "2026-10-02T08:00:00Z", "waterLevel": 13.7, "batteryVoltage": 3.7 },
+        { "timestamp": "2026-10-03T08:00:00Z", "waterLevel": 13.7, "batteryVoltage": 3.69 },
+        { "timestamp": "2026-10-04T08:00:00Z", "waterLevel": 13.6, "batteryVoltage": 3.7 },
+        { "timestamp": "2026-10-05T08:00:00Z", "waterLevel": 13.6, "batteryVoltage": 3.71 },
+        { "timestamp": "2026-10-06T08:00:00Z", "waterLevel": 13.6, "batteryVoltage": 3.7 },
+        { "timestamp": "2026-10-07T08:00:00Z", "waterLevel": 13.6, "batteryVoltage": 3.7 }
+      ],
+      "historicalMonthly": [12.2, 12.8, 13.4, 14.8, 14.2, 13.6, 13.6],
+      "rainfall14dMm": 42
+    },
+    {
+      "stationId": "TN-ER-02",
+      "stationName": "Bhavani Canal Command Piezometer",
+      "district": "Erode",
+      "lat": 11.34,
+      "lon": 77.72,
+      "aquiferType": "Weathered & Fractured Gneiss",
+      "depthM": 104,
+      "readings7d": [
+        { "timestamp": "2026-10-01T08:00:00Z", "waterLevel": 15.4, "batteryVoltage": 3.65 },
+        { "timestamp": "2026-10-02T08:00:00Z", "waterLevel": 15.6, "batteryVoltage": 3.65 },
+        { "timestamp": "2026-10-03T08:00:00Z", "waterLevel": 15.9, "batteryVoltage": 3.64 },
+        { "timestamp": "2026-10-04T08:00:00Z", "waterLevel": 16.2, "batteryVoltage": 3.65 },
+        { "timestamp": "2026-10-05T08:00:00Z", "waterLevel": 16.4, "batteryVoltage": 3.64 },
+        { "timestamp": "2026-10-06T08:00:00Z", "waterLevel": 16.6, "batteryVoltage": 3.65 },
+        { "timestamp": "2026-10-07T08:00:00Z", "waterLevel": 16.8, "batteryVoltage": 3.65 }
+      ],
+      "historicalMonthly": [14.0, 14.5, 15.0, 15.3, 15.5, 15.3, 15.2],
+      "rainfall14dMm": 14
+    },
+    {
+      "stationId": "TN-TP-03",
+      "stationName": "Noyyal Basin Agricultural Station",
+      "district": "Tiruppur",
+      "lat": 11.10,
+      "lon": 77.34,
+      "aquiferType": "Hard-Rock Weathered Complex",
+      "depthM": 132,
+      "readings7d": [
+        { "timestamp": "2026-10-01T08:00:00Z", "waterLevel": 12.2, "batteryVoltage": 3.75 },
+        { "timestamp": "2026-10-02T08:00:00Z", "waterLevel": 12.2, "batteryVoltage": 3.75 },
+        { "timestamp": "2026-10-03T08:00:00Z", "waterLevel": 12.3, "batteryVoltage": 3.74 },
+        { "timestamp": "2026-10-04T08:00:00Z", "waterLevel": 12.3, "batteryVoltage": 3.75 },
+        { "timestamp": "2026-10-05T08:00:00Z", "waterLevel": 12.4, "batteryVoltage": 3.75 },
+        { "timestamp": "2026-10-06T08:00:00Z", "waterLevel": 12.4, "batteryVoltage": 3.74 },
+        { "timestamp": "2026-10-07T08:00:00Z", "waterLevel": 12.4, "batteryVoltage": 3.75 }
+      ],
+      "historicalMonthly": [11.8, 12.0, 12.2, 12.7, 12.6, 12.5, 12.4],
+      "rainfall14dMm": 48
+    },
+    {
+      "stationId": "TN-SL-04",
+      "stationName": "Salem Sub-basin Piezometer (Omalur Block)",
+      "district": "Salem",
+      "lat": 11.66,
+      "lon": 78.15,
+      "aquiferType": "Fissured Hornblende Gneiss",
+      "depthM": 88,
+      "readings7d": [
+        { "timestamp": "2026-10-01T08:00:00Z", "waterLevel": 15.0, "batteryVoltage": 3.40 },
+        { "timestamp": "2026-10-02T08:00:00Z", "waterLevel": 15.1, "batteryVoltage": 3.38 },
+        { "timestamp": "2026-10-03T08:00:00Z", "waterLevel": 15.0, "batteryVoltage": 3.35 },
+        { "timestamp": "2026-10-04T08:00:00Z", "waterLevel": 15.2, "batteryVoltage": 3.32 },
+        { "timestamp": "2026-10-05T08:00:00Z", "waterLevel": 18.4, "batteryVoltage": 3.12 },
+        { "timestamp": "2026-10-06T08:00:00Z", "waterLevel": 15.3, "batteryVoltage": 3.28 },
+        { "timestamp": "2026-10-07T08:00:00Z", "waterLevel": 15.2, "batteryVoltage": 3.30 }
+      ],
+      "historicalMonthly": [14.6, 14.8, 15.0, 15.2, 18.4, 15.3, 15.2],
+      "rainfall14dMm": 12
+    },
+    {
+      "stationId": "TN-NK-05",
+      "stationName": "Namakkal Overdraft Observation (Tiruchengode)",
+      "district": "Namakkal",
+      "lat": 11.22,
+      "lon": 78.17,
+      "aquiferType": "Deep Fractured Charnockite Zone",
+      "depthM": 146,
+      "readings7d": [
+        { "timestamp": "2026-10-01T08:00:00Z", "waterLevel": 20.0, "batteryVoltage": 3.68 },
+        { "timestamp": "2026-10-02T08:00:00Z", "waterLevel": 20.5, "batteryVoltage": 3.68 },
+        { "timestamp": "2026-10-03T08:00:00Z", "waterLevel": 21.0, "batteryVoltage": 3.67 },
+        { "timestamp": "2026-10-04T08:00:00Z", "waterLevel": 21.5, "batteryVoltage": 3.68 },
+        { "timestamp": "2026-10-05T08:00:00Z", "waterLevel": 22.0, "batteryVoltage": 3.66 },
+        { "timestamp": "2026-10-06T08:00:00Z", "waterLevel": 22.4, "batteryVoltage": 3.67 },
+        { "timestamp": "2026-10-07T08:00:00Z", "waterLevel": 22.8, "batteryVoltage": 3.68 }
+      ],
+      "historicalMonthly": [15.2, 15.5, 15.8, 16.2, 16.5, 16.8, 17.0],
+      "rainfall14dMm": 8
+    },
+    {
+      "stationId": "TN-KR-07",
+      "stationName": "Amaravathi Basin Monitoring Station",
+      "district": "Karur",
+      "lat": 10.96,
+      "lon": 78.08,
+      "aquiferType": "Weathered Gneissic Basement",
+      "depthM": 152,
+      "readings7d": [
+        { "timestamp": "2026-10-01T08:00:00Z", "waterLevel": 9.3, "batteryVoltage": 3.25 },
+        { "timestamp": "2026-10-02T08:00:00Z", "waterLevel": 9.5, "batteryVoltage": 3.24 },
+        { "timestamp": "2026-10-03T08:00:00Z", "waterLevel": 9.8, "batteryVoltage": 3.22 },
+        { "timestamp": "2026-10-04T08:00:00Z", "waterLevel": 10.0, "batteryVoltage": 3.22 },
+        { "timestamp": "2026-10-05T08:00:00Z", "waterLevel": 10.1, "batteryVoltage": 3.20 },
+        { "timestamp": "2026-10-06T08:00:00Z", "waterLevel": 10.3, "batteryVoltage": 3.22 },
+        { "timestamp": "2026-10-07T08:00:00Z", "waterLevel": 10.4, "batteryVoltage": 3.22 }
+      ],
+      "historicalMonthly": [9.1, 9.0, 8.9, 8.7, 7.8, 8.2, 8.4],
+      "rainfall14dMm": 12
+    },
+    {
+      "stationId": "TN-MD-12",
+      "stationName": "Madurai Vaigai River Basin Well (Melur)",
+      "district": "Madurai",
+      "lat": 9.92,
+      "lon": 78.12,
+      "aquiferType": "Alluvium / Fractured Granulite",
+      "depthM": 121,
+      "readings7d": [
+        { "timestamp": "2026-10-01T08:00:00Z", "waterLevel": 13.2, "batteryVoltage": 3.45 },
+        { "timestamp": "2026-10-02T08:00:00Z", "waterLevel": 13.5, "batteryVoltage": 3.44 },
+        { "timestamp": "2026-10-03T08:00:00Z", "waterLevel": 13.8, "batteryVoltage": 3.42 },
+        { "timestamp": "2026-10-04T08:00:00Z", "waterLevel": 14.1, "batteryVoltage": 3.41 },
+        { "timestamp": "2026-10-05T08:00:00Z", "waterLevel": 14.4, "batteryVoltage": 3.42 },
+        { "timestamp": "2026-10-06T08:00:00Z", "waterLevel": 14.6, "batteryVoltage": 3.40 },
+        { "timestamp": "2026-10-07T08:00:00Z", "waterLevel": 14.8, "batteryVoltage": 3.42 }
+      ],
+      "historicalMonthly": [11.4, 11.2, 11.1, 10.8, 10.5, 10.9, 10.7],
+      "rainfall14dMm": 95
+    },
+    {
+      "stationId": "TN-TH-15",
+      "stationName": "Coastal Sedimentary Observation Point",
+      "district": "Thoothukudi",
+      "lat": 8.80,
+      "lon": 78.10,
+      "aquiferType": "Tertiary Sandstone & Coastal Sediments",
+      "depthM": 98,
+      "readings7d": [
+        { "timestamp": "2026-10-01T08:00:00Z", "waterLevel": 13.6, "batteryVoltage": 3.72 },
+        { "timestamp": "2026-10-02T08:00:00Z", "waterLevel": 13.7, "batteryVoltage": 3.72 },
+        { "timestamp": "2026-10-03T08:00:00Z", "waterLevel": 13.7, "batteryVoltage": 3.71 },
+        { "timestamp": "2026-10-04T08:00:00Z", "waterLevel": 13.8, "batteryVoltage": 3.72 },
+        { "timestamp": "2026-10-05T08:00:00Z", "waterLevel": 13.8, "batteryVoltage": 3.72 },
+        { "timestamp": "2026-10-06T08:00:00Z", "waterLevel": 13.8, "batteryVoltage": 3.71 },
+        { "timestamp": "2026-10-07T08:00:00Z", "waterLevel": 13.8, "batteryVoltage": 3.72 }
+      ],
+      "historicalMonthly": [13.0, 13.3, 13.6, 14.0, 13.9, 13.8, 13.8],
+      "rainfall14dMm": 38
+    }
+  ]
+}

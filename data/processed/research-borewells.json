@@ -1,0 +1,1553 @@
+{
+  "exportedAt": "2026-10-09T01:51:18.259Z",
+  "stationCount": 8,
+  "stations": [
+    {
+      "id": "TN-CW-01",
+      "stationName": "Perur Observation Well",
+      "district": "Coimbatore",
+      "state": "Tamil Nadu",
+      "lat": 11.02,
+      "lon": 76.96,
+      "x": -5.6,
+      "z": -1.5,
+      "aquiferType": "Weathered Charnockite / Gneiss",
+      "wellDepthM": 118,
+      "currentWaterLevelM": 13.6,
+      "delta7dM": -0.2,
+      "status": "normal",
+      "assessment": {
+        "stationId": "TN-CW-01",
+        "classification": "NORMAL",
+        "severity": "LOW",
+        "modelConfidence": 96,
+        "evidence": {
+          "temporalRobustZScore": 0.19,
+          "rateOfChangeMPerDay": 0.03,
+          "persistenceDays": 0,
+          "seasonalDeviationM": -0.1,
+          "neighborAgreementPct": 100,
+          "rainfallCorrelation": "neutral",
+          "dataQualityScore": 100,
+          "supportedPoints": [
+            "Water table within normal seasonal spread (12.93 m – 14.47 m bgl)",
+            "Regional cluster consensus is stable (100% agreement)",
+            "Telemetry quality score optimal (100/100)"
+          ],
+          "missingPoints": []
+        },
+        "recommendedAction": "Standard periodic telemetry health monitoring schedule.",
+        "whatChanged": "Steady water level at 13.6 m adhering to expected seasonal equilibrium.",
+        "whyUnusual": "Within expected bounds (±0.35 m variance). Zero anomaly threshold breaches detected.",
+        "whatToCheckNext": "Standard periodic telemetry health monitoring schedule.",
+        "assessedAt": "2026-10-09T01:51:18.257Z"
+      },
+      "qualityReport": {
+        "stationId": "TN-CW-01",
+        "totalReadings": 7,
+        "dataQualityScore": 100,
+        "completenessRatio": 1,
+        "missingCount": 0,
+        "duplicateCount": 0,
+        "flatlineHours": 0,
+        "suddenJumpCount": 0,
+        "longGapCount": 0,
+        "flags": [
+          "VALID"
+        ]
+      },
+      "sensorHealth": {
+        "stationId": "TN-CW-01",
+        "healthScore": 100,
+        "batteryVolts": 3.7,
+        "packetLossRate": 0,
+        "driftRate": 0.1,
+        "lastServiceDate": "2026-08-15",
+        "hardwareStatus": "OPTIMAL"
+      },
+      "baseline": {
+        "stationId": "TN-CW-01",
+        "season": "NE_MONSOON",
+        "medianLevel": 13.7,
+        "madLevel": 0.35,
+        "expectedRangeMin": 12.93,
+        "expectedRangeMax": 14.47,
+        "historicalYearsCount": 3
+      },
+      "timeSeriesMonthly": [
+        {
+          "month": "Apr",
+          "actualM": 13.2,
+          "expectedM": 13.7,
+          "expectedMin": 12.93,
+          "expectedMax": 14.47
+        },
+        {
+          "month": "May",
+          "actualM": 13.4,
+          "expectedM": 13.7,
+          "expectedMin": 12.93,
+          "expectedMax": 14.47
+        },
+        {
+          "month": "Jun",
+          "actualM": 13.7,
+          "expectedM": 13.7,
+          "expectedMin": 12.93,
+          "expectedMax": 14.47
+        },
+        {
+          "month": "Jul",
+          "actualM": 14.1,
+          "expectedM": 13.7,
+          "expectedMin": 12.93,
+          "expectedMax": 14.47
+        },
+        {
+          "month": "Aug",
+          "actualM": 14,
+          "expectedM": 13.7,
+          "expectedMin": 12.93,
+          "expectedMax": 14.47
+        },
+        {
+          "month": "Sep",
+          "actualM": 13.8,
+          "expectedM": 13.7,
+          "expectedMin": 12.93,
+          "expectedMax": 14.47
+        },
+        {
+          "month": "Oct",
+          "actualM": 13.6,
+          "expectedM": 13.7,
+          "expectedMin": 12.93,
+          "expectedMax": 14.47
+        }
+      ],
+      "timeSeries7d": [
+        {
+          "date": "Oct 1",
+          "actualM": 13.8
+        },
+        {
+          "date": "Oct 2",
+          "actualM": 13.7
+        },
+        {
+          "date": "Oct 3",
+          "actualM": 13.7
+        },
+        {
+          "date": "Oct 4",
+          "actualM": 13.6
+        },
+        {
+          "date": "Oct 5",
+          "actualM": 13.6
+        },
+        {
+          "date": "Oct 6",
+          "actualM": 13.6
+        },
+        {
+          "date": "Oct 7",
+          "actualM": 13.6
+        }
+      ],
+      "rainfallMonthly": [
+        {
+          "month": "Apr",
+          "rainfallMm": 38,
+          "waterLevelM": 13.2
+        },
+        {
+          "month": "May",
+          "rainfallMm": 61,
+          "waterLevelM": 13.4
+        },
+        {
+          "month": "Jun",
+          "rainfallMm": 83,
+          "waterLevelM": 13.7
+        },
+        {
+          "month": "Jul",
+          "rainfallMm": 134,
+          "waterLevelM": 14.1
+        },
+        {
+          "month": "Aug",
+          "rainfallMm": 152,
+          "waterLevelM": 14
+        },
+        {
+          "month": "Sep",
+          "rainfallMm": 107,
+          "waterLevelM": 13.8
+        },
+        {
+          "month": "Oct",
+          "rainfallMm": 67,
+          "waterLevelM": 13.6
+        }
+      ],
+      "dataSource": "CGWB / WRIS Tamil Nadu DWLR Portal (Station #CW001-CGWB)"
+    },
+    {
+      "id": "TN-ER-02",
+      "stationName": "Bhavani Canal Command Piezometer",
+      "district": "Erode",
+      "state": "Tamil Nadu",
+      "lat": 11.34,
+      "lon": 77.72,
+      "x": 1.7,
+      "z": 0.5,
+      "aquiferType": "Weathered & Fractured Gneiss",
+      "wellDepthM": 104,
+      "currentWaterLevelM": 16.8,
+      "delta7dM": -1.4,
+      "status": "normal",
+      "assessment": {
+        "stationId": "TN-ER-02",
+        "classification": "NORMAL",
+        "severity": "LOW",
+        "modelConfidence": 96,
+        "evidence": {
+          "temporalRobustZScore": 3.08,
+          "rateOfChangeMPerDay": 0.2,
+          "persistenceDays": 4,
+          "seasonalDeviationM": 1.6,
+          "neighborAgreementPct": 50,
+          "rainfallCorrelation": "supporting",
+          "dataQualityScore": 100,
+          "supportedPoints": [
+            "Water table within normal seasonal spread (14.43 m – 15.97 m bgl)",
+            "Regional cluster consensus is stable (50% agreement)",
+            "Telemetry quality score optimal (100/100)"
+          ],
+          "missingPoints": []
+        },
+        "recommendedAction": "Standard periodic telemetry health monitoring schedule.",
+        "whatChanged": "Steady water level at 16.8 m adhering to expected seasonal equilibrium.",
+        "whyUnusual": "Within expected bounds (±0.35 m variance). Zero anomaly threshold breaches detected.",
+        "whatToCheckNext": "Standard periodic telemetry health monitoring schedule.",
+        "assessedAt": "2026-10-09T01:51:18.258Z"
+      },
+      "qualityReport": {
+        "stationId": "TN-ER-02",
+        "totalReadings": 7,
+        "dataQualityScore": 100,
+        "completenessRatio": 1,
+        "missingCount": 0,
+        "duplicateCount": 0,
+        "flatlineHours": 0,
+        "suddenJumpCount": 0,
+        "longGapCount": 0,
+        "flags": [
+          "VALID"
+        ]
+      },
+      "sensorHealth": {
+        "stationId": "TN-ER-02",
+        "healthScore": 100,
+        "batteryVolts": 3.65,
+        "packetLossRate": 0,
+        "driftRate": 0.1,
+        "lastServiceDate": "2026-08-15",
+        "hardwareStatus": "OPTIMAL"
+      },
+      "baseline": {
+        "stationId": "TN-ER-02",
+        "season": "NE_MONSOON",
+        "medianLevel": 15.2,
+        "madLevel": 0.35,
+        "expectedRangeMin": 14.43,
+        "expectedRangeMax": 15.97,
+        "historicalYearsCount": 3
+      },
+      "timeSeriesMonthly": [
+        {
+          "month": "Apr",
+          "actualM": 14,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "May",
+          "actualM": 14.5,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "Jun",
+          "actualM": 15,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "Jul",
+          "actualM": 15.3,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "Aug",
+          "actualM": 15.5,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "Sep",
+          "actualM": 15.3,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "Oct",
+          "actualM": 15.2,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        }
+      ],
+      "timeSeries7d": [
+        {
+          "date": "Oct 1",
+          "actualM": 15.4
+        },
+        {
+          "date": "Oct 2",
+          "actualM": 15.6
+        },
+        {
+          "date": "Oct 3",
+          "actualM": 15.9
+        },
+        {
+          "date": "Oct 4",
+          "actualM": 16.2
+        },
+        {
+          "date": "Oct 5",
+          "actualM": 16.4
+        },
+        {
+          "date": "Oct 6",
+          "actualM": 16.6
+        },
+        {
+          "date": "Oct 7",
+          "actualM": 16.8
+        }
+      ],
+      "rainfallMonthly": [
+        {
+          "month": "Apr",
+          "rainfallMm": 35,
+          "waterLevelM": 14
+        },
+        {
+          "month": "May",
+          "rainfallMm": 58,
+          "waterLevelM": 14.5
+        },
+        {
+          "month": "Jun",
+          "rainfallMm": 78,
+          "waterLevelM": 15
+        },
+        {
+          "month": "Jul",
+          "rainfallMm": 125,
+          "waterLevelM": 15.3
+        },
+        {
+          "month": "Aug",
+          "rainfallMm": 140,
+          "waterLevelM": 15.5
+        },
+        {
+          "month": "Sep",
+          "rainfallMm": 98,
+          "waterLevelM": 15.3
+        },
+        {
+          "month": "Oct",
+          "rainfallMm": 60,
+          "waterLevelM": 15.2
+        }
+      ],
+      "dataSource": "CGWB / WRIS Tamil Nadu DWLR Portal (Station #ER004-CGWB)"
+    },
+    {
+      "id": "TN-TP-03",
+      "stationName": "Noyyal Basin Agricultural Station",
+      "district": "Tiruppur",
+      "state": "Tamil Nadu",
+      "lat": 11.1,
+      "lon": 77.34,
+      "x": -7.5,
+      "z": -4.1,
+      "aquiferType": "Hard-Rock Weathered Complex",
+      "wellDepthM": 132,
+      "currentWaterLevelM": 12.4,
+      "delta7dM": 0.2,
+      "status": "normal",
+      "assessment": {
+        "stationId": "TN-TP-03",
+        "classification": "NORMAL",
+        "severity": "LOW",
+        "modelConfidence": 96,
+        "evidence": {
+          "temporalRobustZScore": 0,
+          "rateOfChangeMPerDay": 0.03,
+          "persistenceDays": 0,
+          "seasonalDeviationM": 0,
+          "neighborAgreementPct": 100,
+          "rainfallCorrelation": "neutral",
+          "dataQualityScore": 100,
+          "supportedPoints": [
+            "Water table within normal seasonal spread (11.63 m – 13.17 m bgl)",
+            "Regional cluster consensus is stable (100% agreement)",
+            "Telemetry quality score optimal (100/100)"
+          ],
+          "missingPoints": []
+        },
+        "recommendedAction": "Standard periodic telemetry health monitoring schedule.",
+        "whatChanged": "Steady water level at 12.4 m adhering to expected seasonal equilibrium.",
+        "whyUnusual": "Within expected bounds (±0.35 m variance). Zero anomaly threshold breaches detected.",
+        "whatToCheckNext": "Standard periodic telemetry health monitoring schedule.",
+        "assessedAt": "2026-10-09T01:51:18.259Z"
+      },
+      "qualityReport": {
+        "stationId": "TN-TP-03",
+        "totalReadings": 7,
+        "dataQualityScore": 100,
+        "completenessRatio": 1,
+        "missingCount": 0,
+        "duplicateCount": 0,
+        "flatlineHours": 0,
+        "suddenJumpCount": 0,
+        "longGapCount": 0,
+        "flags": [
+          "VALID"
+        ]
+      },
+      "sensorHealth": {
+        "stationId": "TN-TP-03",
+        "healthScore": 100,
+        "batteryVolts": 3.75,
+        "packetLossRate": 0,
+        "driftRate": 0.1,
+        "lastServiceDate": "2026-08-15",
+        "hardwareStatus": "OPTIMAL"
+      },
+      "baseline": {
+        "stationId": "TN-TP-03",
+        "season": "NE_MONSOON",
+        "medianLevel": 12.4,
+        "madLevel": 0.35,
+        "expectedRangeMin": 11.63,
+        "expectedRangeMax": 13.17,
+        "historicalYearsCount": 3
+      },
+      "timeSeriesMonthly": [
+        {
+          "month": "Apr",
+          "actualM": 11.8,
+          "expectedM": 12.4,
+          "expectedMin": 11.63,
+          "expectedMax": 13.17
+        },
+        {
+          "month": "May",
+          "actualM": 12,
+          "expectedM": 12.4,
+          "expectedMin": 11.63,
+          "expectedMax": 13.17
+        },
+        {
+          "month": "Jun",
+          "actualM": 12.2,
+          "expectedM": 12.4,
+          "expectedMin": 11.63,
+          "expectedMax": 13.17
+        },
+        {
+          "month": "Jul",
+          "actualM": 12.7,
+          "expectedM": 12.4,
+          "expectedMin": 11.63,
+          "expectedMax": 13.17
+        },
+        {
+          "month": "Aug",
+          "actualM": 12.6,
+          "expectedM": 12.4,
+          "expectedMin": 11.63,
+          "expectedMax": 13.17
+        },
+        {
+          "month": "Sep",
+          "actualM": 12.5,
+          "expectedM": 12.4,
+          "expectedMin": 11.63,
+          "expectedMax": 13.17
+        },
+        {
+          "month": "Oct",
+          "actualM": 12.4,
+          "expectedM": 12.4,
+          "expectedMin": 11.63,
+          "expectedMax": 13.17
+        }
+      ],
+      "timeSeries7d": [
+        {
+          "date": "Oct 1",
+          "actualM": 12.2
+        },
+        {
+          "date": "Oct 2",
+          "actualM": 12.2
+        },
+        {
+          "date": "Oct 3",
+          "actualM": 12.3
+        },
+        {
+          "date": "Oct 4",
+          "actualM": 12.3
+        },
+        {
+          "date": "Oct 5",
+          "actualM": 12.4
+        },
+        {
+          "date": "Oct 6",
+          "actualM": 12.4
+        },
+        {
+          "date": "Oct 7",
+          "actualM": 12.4
+        }
+      ],
+      "rainfallMonthly": [
+        {
+          "month": "Apr",
+          "rainfallMm": 40,
+          "waterLevelM": 11.8
+        },
+        {
+          "month": "May",
+          "rainfallMm": 64,
+          "waterLevelM": 12
+        },
+        {
+          "month": "Jun",
+          "rainfallMm": 85,
+          "waterLevelM": 12.2
+        },
+        {
+          "month": "Jul",
+          "rainfallMm": 130,
+          "waterLevelM": 12.7
+        },
+        {
+          "month": "Aug",
+          "rainfallMm": 148,
+          "waterLevelM": 12.6
+        },
+        {
+          "month": "Sep",
+          "rainfallMm": 104,
+          "waterLevelM": 12.5
+        },
+        {
+          "month": "Oct",
+          "rainfallMm": 65,
+          "waterLevelM": 12.4
+        }
+      ],
+      "dataSource": "CGWB / WRIS Tamil Nadu DWLR Portal (Station #TP003-CGWB)"
+    },
+    {
+      "id": "TN-SL-04",
+      "stationName": "Omalur Piedmont Piezometer",
+      "district": "Salem",
+      "state": "Tamil Nadu",
+      "lat": 11.66,
+      "lon": 78.15,
+      "x": 2.1,
+      "z": -2.8,
+      "aquiferType": "Fissured Hornblende Gneiss",
+      "wellDepthM": 88,
+      "currentWaterLevelM": 15.2,
+      "delta7dM": 1.4,
+      "status": "sensor",
+      "assessment": {
+        "stationId": "TN-SL-04",
+        "classification": "SENSOR_ANOMALY",
+        "severity": "HIGH",
+        "modelConfidence": 71,
+        "evidence": {
+          "temporalRobustZScore": 0,
+          "rateOfChangeMPerDay": 0.03,
+          "persistenceDays": 1,
+          "seasonalDeviationM": 0,
+          "neighborAgreementPct": 0,
+          "rainfallCorrelation": "neutral",
+          "dataQualityScore": 49,
+          "supportedPoints": [
+            "Isolated reading departure without spatial corroboration (0% neighbor agreement)",
+            "Rate of change (0.03 m/day) exceeds unconfined hydraulic conductivity bounds",
+            "Downlink battery voltage below operational threshold (<3.3V)"
+          ],
+          "missingPoints": [
+            "No regional cluster decline detected",
+            "Hydro-climatic rain event does not explain localized step"
+          ]
+        },
+        "recommendedAction": "Perform transducer zero-point recalibration, test cable shielding ground loop, and verify solar battery charge level.",
+        "whatChanged": "Discontinuous reading departure to 15.2 m without regional hydrologic agreement.",
+        "whyUnusual": "Neighbor agreement is only 0%; departure returned to baseline within short window or contains telemetry jitter.",
+        "whatToCheckNext": "Perform transducer zero-point recalibration, test cable shielding ground loop, and verify solar battery charge level.",
+        "assessedAt": "2026-10-09T01:51:18.259Z"
+      },
+      "qualityReport": {
+        "stationId": "TN-SL-04",
+        "totalReadings": 7,
+        "dataQualityScore": 49,
+        "completenessRatio": 1,
+        "missingCount": 0,
+        "duplicateCount": 0,
+        "flatlineHours": 0,
+        "suddenJumpCount": 2,
+        "longGapCount": 0,
+        "flags": [
+          "LOW_VOLTAGE",
+          "SUDDEN_JUMP"
+        ]
+      },
+      "sensorHealth": {
+        "stationId": "TN-SL-04",
+        "healthScore": 49,
+        "batteryVolts": 3.12,
+        "packetLossRate": 0,
+        "driftRate": 0.1,
+        "lastServiceDate": "2026-08-15",
+        "hardwareStatus": "DEGRADED"
+      },
+      "baseline": {
+        "stationId": "TN-SL-04",
+        "season": "NE_MONSOON",
+        "medianLevel": 15.2,
+        "madLevel": 0.35,
+        "expectedRangeMin": 14.43,
+        "expectedRangeMax": 15.97,
+        "historicalYearsCount": 3
+      },
+      "timeSeriesMonthly": [
+        {
+          "month": "Apr",
+          "actualM": 14.6,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "May",
+          "actualM": 14.8,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "Jun",
+          "actualM": 15,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "Jul",
+          "actualM": 15.2,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "Aug",
+          "actualM": 18.4,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "Sep",
+          "actualM": 15.3,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        },
+        {
+          "month": "Oct",
+          "actualM": 15.2,
+          "expectedM": 15.2,
+          "expectedMin": 14.43,
+          "expectedMax": 15.97
+        }
+      ],
+      "timeSeries7d": [
+        {
+          "date": "Oct 1",
+          "actualM": 15
+        },
+        {
+          "date": "Oct 2",
+          "actualM": 15.1
+        },
+        {
+          "date": "Oct 3",
+          "actualM": 15
+        },
+        {
+          "date": "Oct 4",
+          "actualM": 15.2
+        },
+        {
+          "date": "Oct 5",
+          "actualM": 18.4
+        },
+        {
+          "date": "Oct 6",
+          "actualM": 15.3
+        },
+        {
+          "date": "Oct 7",
+          "actualM": 15.2
+        }
+      ],
+      "rainfallMonthly": [
+        {
+          "month": "Apr",
+          "rainfallMm": 32,
+          "waterLevelM": 14.6
+        },
+        {
+          "month": "May",
+          "rainfallMm": 50,
+          "waterLevelM": 14.8
+        },
+        {
+          "month": "Jun",
+          "rainfallMm": 72,
+          "waterLevelM": 15
+        },
+        {
+          "month": "Jul",
+          "rainfallMm": 118,
+          "waterLevelM": 15.2
+        },
+        {
+          "month": "Aug",
+          "rainfallMm": 135,
+          "waterLevelM": 18.4
+        },
+        {
+          "month": "Sep",
+          "rainfallMm": 92,
+          "waterLevelM": 15.3
+        },
+        {
+          "month": "Oct",
+          "rainfallMm": 55,
+          "waterLevelM": 15.2
+        }
+      ],
+      "dataSource": "CGWB / WRIS Tamil Nadu DWLR Portal (Station #SL009-CGWB)"
+    },
+    {
+      "id": "TN-NK-05",
+      "stationName": "Tiruchengode Critical Overdraft Well",
+      "district": "Namakkal",
+      "state": "Tamil Nadu",
+      "lat": 11.22,
+      "lon": 78.17,
+      "x": 3.8,
+      "z": 0.2,
+      "aquiferType": "Deep Fractured Charnockite Zone",
+      "wellDepthM": 146,
+      "currentWaterLevelM": 22.8,
+      "delta7dM": -2.8,
+      "status": "groundwater",
+      "assessment": {
+        "stationId": "TN-NK-05",
+        "classification": "GROUNDWATER_ANOMALY",
+        "severity": "CRITICAL",
+        "modelConfidence": 83,
+        "evidence": {
+          "temporalRobustZScore": 7.42,
+          "rateOfChangeMPerDay": 0.4,
+          "persistenceDays": 7,
+          "seasonalDeviationM": 6.6,
+          "neighborAgreementPct": 50,
+          "rainfallCorrelation": "supporting",
+          "dataQualityScore": 100,
+          "supportedPoints": [
+            "Persistent drawdown of 2.8 m sustained across 7 consecutive observation windows",
+            "High spatial consistency: 2/4 (50%) nearby cluster wells corroborate decline",
+            "Data Quality Score is verified high (100/100) — hardware integrity intact",
+            "Low cumulative rainfall (8 mm in 14 days) corroborates regional extraction stress"
+          ],
+          "missingPoints": [
+            "Zero hardware telemetry error codes received"
+          ]
+        },
+        "recommendedAction": "Dispatch hydrogeological field team to verify local agricultural extraction pumps; cross-reference dynamic power-grid pumping loads.",
+        "whatChanged": "Rapid continuous water level depletion of 2.8 m observed over the past 7 days.",
+        "whyUnusual": "Breaches seasonal historical median by 6.6 m, corroborated by 50% of nearby cluster observation wells.",
+        "whatToCheckNext": "Dispatch hydrogeological field team to verify local agricultural extraction pumps; cross-reference dynamic power-grid pumping loads.",
+        "assessedAt": "2026-10-09T01:51:18.259Z"
+      },
+      "qualityReport": {
+        "stationId": "TN-NK-05",
+        "totalReadings": 7,
+        "dataQualityScore": 100,
+        "completenessRatio": 1,
+        "missingCount": 0,
+        "duplicateCount": 0,
+        "flatlineHours": 0,
+        "suddenJumpCount": 0,
+        "longGapCount": 0,
+        "flags": [
+          "VALID"
+        ]
+      },
+      "sensorHealth": {
+        "stationId": "TN-NK-05",
+        "healthScore": 100,
+        "batteryVolts": 3.68,
+        "packetLossRate": 0,
+        "driftRate": 0.1,
+        "lastServiceDate": "2026-08-15",
+        "hardwareStatus": "OPTIMAL"
+      },
+      "baseline": {
+        "stationId": "TN-NK-05",
+        "season": "NE_MONSOON",
+        "medianLevel": 16.2,
+        "madLevel": 0.6,
+        "expectedRangeMin": 14.88,
+        "expectedRangeMax": 17.52,
+        "historicalYearsCount": 3
+      },
+      "timeSeriesMonthly": [
+        {
+          "month": "Apr",
+          "actualM": 15.2,
+          "expectedM": 16.2,
+          "expectedMin": 14.88,
+          "expectedMax": 17.52
+        },
+        {
+          "month": "May",
+          "actualM": 15.5,
+          "expectedM": 16.2,
+          "expectedMin": 14.88,
+          "expectedMax": 17.52
+        },
+        {
+          "month": "Jun",
+          "actualM": 15.8,
+          "expectedM": 16.2,
+          "expectedMin": 14.88,
+          "expectedMax": 17.52
+        },
+        {
+          "month": "Jul",
+          "actualM": 16.2,
+          "expectedM": 16.2,
+          "expectedMin": 14.88,
+          "expectedMax": 17.52
+        },
+        {
+          "month": "Aug",
+          "actualM": 16.5,
+          "expectedM": 16.2,
+          "expectedMin": 14.88,
+          "expectedMax": 17.52
+        },
+        {
+          "month": "Sep",
+          "actualM": 16.8,
+          "expectedM": 16.2,
+          "expectedMin": 14.88,
+          "expectedMax": 17.52
+        },
+        {
+          "month": "Oct",
+          "actualM": 17,
+          "expectedM": 16.2,
+          "expectedMin": 14.88,
+          "expectedMax": 17.52
+        }
+      ],
+      "timeSeries7d": [
+        {
+          "date": "Oct 1",
+          "actualM": 20
+        },
+        {
+          "date": "Oct 2",
+          "actualM": 20.5
+        },
+        {
+          "date": "Oct 3",
+          "actualM": 21
+        },
+        {
+          "date": "Oct 4",
+          "actualM": 21.5
+        },
+        {
+          "date": "Oct 5",
+          "actualM": 22
+        },
+        {
+          "date": "Oct 6",
+          "actualM": 22.4
+        },
+        {
+          "date": "Oct 7",
+          "actualM": 22.8
+        }
+      ],
+      "rainfallMonthly": [
+        {
+          "month": "Apr",
+          "rainfallMm": 28,
+          "waterLevelM": 15.2
+        },
+        {
+          "month": "May",
+          "rainfallMm": 42,
+          "waterLevelM": 15.5
+        },
+        {
+          "month": "Jun",
+          "rainfallMm": 60,
+          "waterLevelM": 15.8
+        },
+        {
+          "month": "Jul",
+          "rainfallMm": 95,
+          "waterLevelM": 16.2
+        },
+        {
+          "month": "Aug",
+          "rainfallMm": 110,
+          "waterLevelM": 16.5
+        },
+        {
+          "month": "Sep",
+          "rainfallMm": 74,
+          "waterLevelM": 16.8
+        },
+        {
+          "month": "Oct",
+          "rainfallMm": 45,
+          "waterLevelM": 17
+        }
+      ],
+      "dataSource": "CGWB / WRIS Tamil Nadu DWLR Portal (Station #NK002-CGWB)"
+    },
+    {
+      "id": "TN-KR-07",
+      "stationName": "Amaravathi Basin Monitoring Station",
+      "district": "Karur",
+      "state": "Tamil Nadu",
+      "lat": 10.96,
+      "lon": 78.08,
+      "x": 4.8,
+      "z": -1.8,
+      "aquiferType": "Weathered Gneissic Basement",
+      "wellDepthM": 152,
+      "currentWaterLevelM": 10.4,
+      "delta7dM": -1.1,
+      "status": "sensor",
+      "assessment": {
+        "stationId": "TN-KR-07",
+        "classification": "SENSOR_ANOMALY",
+        "severity": "HIGH",
+        "modelConfidence": 65,
+        "evidence": {
+          "temporalRobustZScore": 3.28,
+          "rateOfChangeMPerDay": 0.16,
+          "persistenceDays": 6,
+          "seasonalDeviationM": 1.7,
+          "neighborAgreementPct": 67,
+          "rainfallCorrelation": "supporting",
+          "dataQualityScore": 65,
+          "supportedPoints": [
+            "Isolated reading departure without spatial corroboration (67% neighbor agreement)",
+            "Downlink battery voltage below operational threshold (<3.3V)"
+          ],
+          "missingPoints": [
+            "No regional cluster decline detected",
+            "Hydro-climatic rain event does not explain localized step"
+          ]
+        },
+        "recommendedAction": "Perform transducer zero-point recalibration, test cable shielding ground loop, and verify solar battery charge level.",
+        "whatChanged": "Discontinuous reading departure to 10.4 m without regional hydrologic agreement.",
+        "whyUnusual": "Neighbor agreement is only 67%; departure returned to baseline within short window or contains telemetry jitter.",
+        "whatToCheckNext": "Perform transducer zero-point recalibration, test cable shielding ground loop, and verify solar battery charge level.",
+        "assessedAt": "2026-10-09T01:51:18.259Z"
+      },
+      "qualityReport": {
+        "stationId": "TN-KR-07",
+        "totalReadings": 7,
+        "dataQualityScore": 65,
+        "completenessRatio": 1,
+        "missingCount": 0,
+        "duplicateCount": 0,
+        "flatlineHours": 0,
+        "suddenJumpCount": 0,
+        "longGapCount": 0,
+        "flags": [
+          "LOW_VOLTAGE"
+        ]
+      },
+      "sensorHealth": {
+        "stationId": "TN-KR-07",
+        "healthScore": 65,
+        "batteryVolts": 3.22,
+        "packetLossRate": 0,
+        "driftRate": 0.1,
+        "lastServiceDate": "2026-08-15",
+        "hardwareStatus": "DEGRADED"
+      },
+      "baseline": {
+        "stationId": "TN-KR-07",
+        "season": "NE_MONSOON",
+        "medianLevel": 8.7,
+        "madLevel": 0.35,
+        "expectedRangeMin": 7.93,
+        "expectedRangeMax": 9.47,
+        "historicalYearsCount": 3
+      },
+      "timeSeriesMonthly": [
+        {
+          "month": "Apr",
+          "actualM": 9.1,
+          "expectedM": 8.7,
+          "expectedMin": 7.93,
+          "expectedMax": 9.47
+        },
+        {
+          "month": "May",
+          "actualM": 9,
+          "expectedM": 8.7,
+          "expectedMin": 7.93,
+          "expectedMax": 9.47
+        },
+        {
+          "month": "Jun",
+          "actualM": 8.9,
+          "expectedM": 8.7,
+          "expectedMin": 7.93,
+          "expectedMax": 9.47
+        },
+        {
+          "month": "Jul",
+          "actualM": 8.7,
+          "expectedM": 8.7,
+          "expectedMin": 7.93,
+          "expectedMax": 9.47
+        },
+        {
+          "month": "Aug",
+          "actualM": 7.8,
+          "expectedM": 8.7,
+          "expectedMin": 7.93,
+          "expectedMax": 9.47
+        },
+        {
+          "month": "Sep",
+          "actualM": 8.2,
+          "expectedM": 8.7,
+          "expectedMin": 7.93,
+          "expectedMax": 9.47
+        },
+        {
+          "month": "Oct",
+          "actualM": 8.4,
+          "expectedM": 8.7,
+          "expectedMin": 7.93,
+          "expectedMax": 9.47
+        }
+      ],
+      "timeSeries7d": [
+        {
+          "date": "Oct 1",
+          "actualM": 9.3
+        },
+        {
+          "date": "Oct 2",
+          "actualM": 9.5
+        },
+        {
+          "date": "Oct 3",
+          "actualM": 9.8
+        },
+        {
+          "date": "Oct 4",
+          "actualM": 10
+        },
+        {
+          "date": "Oct 5",
+          "actualM": 10.1
+        },
+        {
+          "date": "Oct 6",
+          "actualM": 10.3
+        },
+        {
+          "date": "Oct 7",
+          "actualM": 10.4
+        }
+      ],
+      "rainfallMonthly": [
+        {
+          "month": "Apr",
+          "rainfallMm": 30,
+          "waterLevelM": 9.1
+        },
+        {
+          "month": "May",
+          "rainfallMm": 46,
+          "waterLevelM": 9
+        },
+        {
+          "month": "Jun",
+          "rainfallMm": 68,
+          "waterLevelM": 8.9
+        },
+        {
+          "month": "Jul",
+          "rainfallMm": 112,
+          "waterLevelM": 8.7
+        },
+        {
+          "month": "Aug",
+          "rainfallMm": 125,
+          "waterLevelM": 7.8
+        },
+        {
+          "month": "Sep",
+          "rainfallMm": 84,
+          "waterLevelM": 8.2
+        },
+        {
+          "month": "Oct",
+          "rainfallMm": 50,
+          "waterLevelM": 8.4
+        }
+      ],
+      "dataSource": "CGWB / WRIS Tamil Nadu DWLR Portal (Station #KR007-CGWB)"
+    },
+    {
+      "id": "TN-MD-12",
+      "stationName": "Vaigai Basin Observatory (Melur)",
+      "district": "Madurai",
+      "state": "Tamil Nadu",
+      "lat": 9.92,
+      "lon": 78.12,
+      "x": -0.3,
+      "z": 8.7,
+      "aquiferType": "Alluvium & Fractured Granulite",
+      "wellDepthM": 121,
+      "currentWaterLevelM": 14.8,
+      "delta7dM": -1.6,
+      "status": "uncertain",
+      "assessment": {
+        "stationId": "TN-MD-12",
+        "classification": "UNCERTAIN",
+        "severity": "MEDIUM",
+        "modelConfidence": 54,
+        "evidence": {
+          "temporalRobustZScore": 7.52,
+          "rateOfChangeMPerDay": 0.23,
+          "persistenceDays": 7,
+          "seasonalDeviationM": 3.9,
+          "neighborAgreementPct": 0,
+          "rainfallCorrelation": "contradicting",
+          "dataQualityScore": 100,
+          "supportedPoints": [
+            "Mild water level deviation detected (3.9 m from seasonal median)",
+            "Contradictory hydrologic response: decline recorded during active precipitation window"
+          ],
+          "missingPoints": [
+            "Spatial cluster density insufficient (1 neighbor wells within 15 km)",
+            "Awaiting next 48-hour assimilation cycle to confirm persistence vs. noise"
+          ]
+        },
+        "recommendedAction": "Continue high-frequency logging for 48 hours; assimilate next satellite soil moisture and GRACE-FO regional passes.",
+        "whatChanged": "Moderate water level movement of -1.6 m under ambiguous spatial evidence.",
+        "whyUnusual": "Telemetry quality is borderline (100%) and nearby observation density is limited.",
+        "whatToCheckNext": "Continue high-frequency logging for 48 hours; assimilate next satellite soil moisture and GRACE-FO regional passes.",
+        "assessedAt": "2026-10-09T01:51:18.259Z"
+      },
+      "qualityReport": {
+        "stationId": "TN-MD-12",
+        "totalReadings": 7,
+        "dataQualityScore": 100,
+        "completenessRatio": 1,
+        "missingCount": 0,
+        "duplicateCount": 0,
+        "flatlineHours": 0,
+        "suddenJumpCount": 0,
+        "longGapCount": 0,
+        "flags": [
+          "VALID"
+        ]
+      },
+      "sensorHealth": {
+        "stationId": "TN-MD-12",
+        "healthScore": 100,
+        "batteryVolts": 3.42,
+        "packetLossRate": 0,
+        "driftRate": 0.1,
+        "lastServiceDate": "2026-08-15",
+        "hardwareStatus": "OPTIMAL"
+      },
+      "baseline": {
+        "stationId": "TN-MD-12",
+        "season": "NE_MONSOON",
+        "medianLevel": 10.9,
+        "madLevel": 0.35,
+        "expectedRangeMin": 10.13,
+        "expectedRangeMax": 11.67,
+        "historicalYearsCount": 3
+      },
+      "timeSeriesMonthly": [
+        {
+          "month": "Apr",
+          "actualM": 11.4,
+          "expectedM": 10.9,
+          "expectedMin": 10.13,
+          "expectedMax": 11.67
+        },
+        {
+          "month": "May",
+          "actualM": 11.2,
+          "expectedM": 10.9,
+          "expectedMin": 10.13,
+          "expectedMax": 11.67
+        },
+        {
+          "month": "Jun",
+          "actualM": 11.1,
+          "expectedM": 10.9,
+          "expectedMin": 10.13,
+          "expectedMax": 11.67
+        },
+        {
+          "month": "Jul",
+          "actualM": 10.8,
+          "expectedM": 10.9,
+          "expectedMin": 10.13,
+          "expectedMax": 11.67
+        },
+        {
+          "month": "Aug",
+          "actualM": 10.5,
+          "expectedM": 10.9,
+          "expectedMin": 10.13,
+          "expectedMax": 11.67
+        },
+        {
+          "month": "Sep",
+          "actualM": 10.9,
+          "expectedM": 10.9,
+          "expectedMin": 10.13,
+          "expectedMax": 11.67
+        },
+        {
+          "month": "Oct",
+          "actualM": 10.7,
+          "expectedM": 10.9,
+          "expectedMin": 10.13,
+          "expectedMax": 11.67
+        }
+      ],
+      "timeSeries7d": [
+        {
+          "date": "Oct 1",
+          "actualM": 13.2
+        },
+        {
+          "date": "Oct 2",
+          "actualM": 13.5
+        },
+        {
+          "date": "Oct 3",
+          "actualM": 13.8
+        },
+        {
+          "date": "Oct 4",
+          "actualM": 14.1
+        },
+        {
+          "date": "Oct 5",
+          "actualM": 14.4
+        },
+        {
+          "date": "Oct 6",
+          "actualM": 14.6
+        },
+        {
+          "date": "Oct 7",
+          "actualM": 14.8
+        }
+      ],
+      "rainfallMonthly": [
+        {
+          "month": "Apr",
+          "rainfallMm": 45,
+          "waterLevelM": 11.4
+        },
+        {
+          "month": "May",
+          "rainfallMm": 72,
+          "waterLevelM": 11.2
+        },
+        {
+          "month": "Jun",
+          "rainfallMm": 95,
+          "waterLevelM": 11.1
+        },
+        {
+          "month": "Jul",
+          "rainfallMm": 145,
+          "waterLevelM": 10.8
+        },
+        {
+          "month": "Aug",
+          "rainfallMm": 165,
+          "waterLevelM": 10.5
+        },
+        {
+          "month": "Sep",
+          "rainfallMm": 120,
+          "waterLevelM": 10.9
+        },
+        {
+          "month": "Oct",
+          "rainfallMm": 85,
+          "waterLevelM": 10.7
+        }
+      ],
+      "dataSource": "CGWB / WRIS Tamil Nadu DWLR Portal (Station #MD012-CGWB)"
+    },
+    {
+      "id": "TN-TH-15",
+      "stationName": "Coastal Sedimentary Observation Point",
+      "district": "Thoothukudi",
+      "state": "Tamil Nadu",
+      "lat": 8.8,
+      "lon": 78.1,
+      "x": 4,
+      "z": 5,
+      "aquiferType": "Tertiary Sandstone & Coastal Sediments",
+      "wellDepthM": 98,
+      "currentWaterLevelM": 13.8,
+      "delta7dM": 0.1,
+      "status": "normal",
+      "assessment": {
+        "stationId": "TN-TH-15",
+        "classification": "NORMAL",
+        "severity": "LOW",
+        "modelConfidence": 96,
+        "evidence": {
+          "temporalRobustZScore": 0,
+          "rateOfChangeMPerDay": 0.03,
+          "persistenceDays": 0,
+          "seasonalDeviationM": 0,
+          "neighborAgreementPct": 0,
+          "rainfallCorrelation": "neutral",
+          "dataQualityScore": 100,
+          "supportedPoints": [
+            "Water table within normal seasonal spread (13.03 m – 14.57 m bgl)",
+            "Regional cluster consensus is stable (0% agreement)",
+            "Telemetry quality score optimal (100/100)"
+          ],
+          "missingPoints": []
+        },
+        "recommendedAction": "Standard periodic telemetry health monitoring schedule.",
+        "whatChanged": "Steady water level at 13.8 m adhering to expected seasonal equilibrium.",
+        "whyUnusual": "Within expected bounds (±0.35 m variance). Zero anomaly threshold breaches detected.",
+        "whatToCheckNext": "Standard periodic telemetry health monitoring schedule.",
+        "assessedAt": "2026-10-09T01:51:18.259Z"
+      },
+      "qualityReport": {
+        "stationId": "TN-TH-15",
+        "totalReadings": 7,
+        "dataQualityScore": 100,
+        "completenessRatio": 1,
+        "missingCount": 0,
+        "duplicateCount": 0,
+        "flatlineHours": 0,
+        "suddenJumpCount": 0,
+        "longGapCount": 0,
+        "flags": [
+          "VALID"
+        ]
+      },
+      "sensorHealth": {
+        "stationId": "TN-TH-15",
+        "healthScore": 100,
+        "batteryVolts": 3.72,
+        "packetLossRate": 0,
+        "driftRate": 0.1,
+        "lastServiceDate": "2026-08-15",
+        "hardwareStatus": "OPTIMAL"
+      },
+      "baseline": {
+        "stationId": "TN-TH-15",
+        "season": "NE_MONSOON",
+        "medianLevel": 13.8,
+        "madLevel": 0.35,
+        "expectedRangeMin": 13.03,
+        "expectedRangeMax": 14.57,
+        "historicalYearsCount": 3
+      },
+      "timeSeriesMonthly": [
+        {
+          "month": "Apr",
+          "actualM": 13,
+          "expectedM": 13.8,
+          "expectedMin": 13.03,
+          "expectedMax": 14.57
+        },
+        {
+          "month": "May",
+          "actualM": 13.3,
+          "expectedM": 13.8,
+          "expectedMin": 13.03,
+          "expectedMax": 14.57
+        },
+        {
+          "month": "Jun",
+          "actualM": 13.6,
+          "expectedM": 13.8,
+          "expectedMin": 13.03,
+          "expectedMax": 14.57
+        },
+        {
+          "month": "Jul",
+          "actualM": 14,
+          "expectedM": 13.8,
+          "expectedMin": 13.03,
+          "expectedMax": 14.57
+        },
+        {
+          "month": "Aug",
+          "actualM": 13.9,
+          "expectedM": 13.8,
+          "expectedMin": 13.03,
+          "expectedMax": 14.57
+        },
+        {
+          "month": "Sep",
+          "actualM": 13.8,
+          "expectedM": 13.8,
+          "expectedMin": 13.03,
+          "expectedMax": 14.57
+        },
+        {
+          "month": "Oct",
+          "actualM": 13.8,
+          "expectedM": 13.8,
+          "expectedMin": 13.03,
+          "expectedMax": 14.57
+        }
+      ],
+      "timeSeries7d": [
+        {
+          "date": "Oct 1",
+          "actualM": 13.6
+        },
+        {
+          "date": "Oct 2",
+          "actualM": 13.7
+        },
+        {
+          "date": "Oct 3",
+          "actualM": 13.7
+        },
+        {
+          "date": "Oct 4",
+          "actualM": 13.8
+        },
+        {
+          "date": "Oct 5",
+          "actualM": 13.8
+        },
+        {
+          "date": "Oct 6",
+          "actualM": 13.8
+        },
+        {
+          "date": "Oct 7",
+          "actualM": 13.8
+        }
+      ],
+      "rainfallMonthly": [
+        {
+          "month": "Apr",
+          "rainfallMm": 25,
+          "waterLevelM": 13
+        },
+        {
+          "month": "May",
+          "rainfallMm": 38,
+          "waterLevelM": 13.3
+        },
+        {
+          "month": "Jun",
+          "rainfallMm": 52,
+          "waterLevelM": 13.6
+        },
+        {
+          "month": "Jul",
+          "rainfallMm": 88,
+          "waterLevelM": 14
+        },
+        {
+          "month": "Aug",
+          "rainfallMm": 102,
+          "waterLevelM": 13.9
+        },
+        {
+          "month": "Sep",
+          "rainfallMm": 68,
+          "waterLevelM": 13.8
+        },
+        {
+          "month": "Oct",
+          "rainfallMm": 42,
+          "waterLevelM": 13.8
+        }
+      ],
+      "dataSource": "CGWB / WRIS Tamil Nadu DWLR Portal (Station #TH015-CGWB)"
+    }
+  ]
+}
